@@ -1,0 +1,240 @@
+.header {
+  list-style-type: none;
+  margin-left: 1150px;
+  overflow: hidden;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  top: 0;
+  right: 0;
+  padding: 0;
+}
+.hiderli{
+  float: left;
+}
+
+.headerli a {
+  display: block;
+  color: black;
+  text-align: center;
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+.buttons{
+  margin-left: 600px;
+}
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  border-radius: 25px; /* Yuvarlak kenarlar için */
+  height: 35px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 584px;
+}
+
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+
+}
+.voice-search-icon {
+  width: 20px; /* İkon boyutunu ihtiyaca göre ayarlayabilirsiniz */
+  height: 20px;
+  margin-left: 500px; /* Sesli arama logosu ile arama çubuğu arasına boşluk bırakır */
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  width: 480px;   /* Arama çubuğu genişliğini ayarla */
+  border: none !important;  /* Arama çubuğu kenarlığını kaldır */
+  box-shadow: none !important;  /* Arama çubuğu kenarlığını kaldır */
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+
+}
+
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  font-family: Arial, sans-serif;
+  color: #5f6368;
+  border: 1px solid #f2f2f2;
+  height: 36px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.feelinglucky {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  font-family: Arial, sans-serif;
+  border: 1px solid #f2f2f2;
+  color: #5f6368;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  height: 36px;
+  user-select: none;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  background-color: #f2f2f2;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+
+}
+
+.custom-button {
+  padding-bottom:auto;
+  width: 75px; /* Genişlik */
+  height: 35px; /* Yükseklik */
+  font-size: 16px; /* Yazı tipi boyutu */
+  background-color: #357ae8; /* Arka plan rengi */
+  color: #ffffff; /* Yazı rengi */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tek1 {
+  
+  margin-right: px;
+  padding: 10px;
+  overflow: hidden;
+  float: left;
+  position: right;
+  top: 0;
+  text-align: left;
+  display: flex;
+  margin-right: 10px;
+  color: #67696c;
+  padding: 15px;
+  
+
+}
+
+
+
+.rek1li a {
+  display: block;
+  color: black;
+  text-align: center;
+
+  
+}
+
+
+.tek1li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#id{
+  color: #5f6368;
+}
